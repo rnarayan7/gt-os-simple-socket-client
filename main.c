@@ -6,10 +6,6 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-// Constants
-
-// Variables
-
 int main()
 {
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);
